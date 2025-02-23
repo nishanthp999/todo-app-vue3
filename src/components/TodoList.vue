@@ -5,7 +5,7 @@ import SortTodos from './SortTodos.vue'
 const store = useTodoStore()
 </script>
 <template>
-  <div class="todolist-wrapper">
+  <div class="todolist-wrapper" v-if="store.filterTodos.length > 0">
     <div class="d-flex">
       <div>
         <h6>Todo List</h6>
