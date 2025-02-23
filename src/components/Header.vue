@@ -45,9 +45,9 @@ import { RouterLink } from 'vue-router'
 }
 .navbar-expand-lg .nav-link:hover {
   background-color: #fff;
-  color:#0d6efd;
+  color: #0d6efd;
 }
-.navbar-toggler{
+.navbar-toggler {
   background-color: #fff;
 }
 </style>

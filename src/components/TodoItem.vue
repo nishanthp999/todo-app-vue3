@@ -13,7 +13,7 @@ const store = useTodoStore()
         @click="store.toggleCompleted(todo.id)"
         :checked="todo.completed"
       />
-      <h4 :class="[{ 'line-through': todo.completed }, 'px-2']">{{ todo.name }} {{ todo.id }}</h4>
+      <h4 :class="[{ 'line-through': todo.completed }, 'px-2']">{{ todo.name }}</h4>
       <span class="delete-icon" @click="store.removeTodo(todo.id)"
         ><i class="bi bi-trash"></i
       ></span>
