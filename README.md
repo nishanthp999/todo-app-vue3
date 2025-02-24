@@ -21,11 +21,20 @@ This is a Vue 3 Todo App built using Pinia for state management and Vue Router f
 
 🛠 Vue Router – Navigation between Home and Todos page.
 
+
+
+
+
+
+
 Technology Stack:
 
 Vue 3 – JavaScript framework
+
 Pinia – State management
+
 Vue Router – Navigation
+
 Bootstrap – Styling and UI components
 
 🚀 Installation & Setup
@@ -40,10 +49,13 @@ Bootstrap – Styling and UI components
    npm run dev
    
 Build & Deployment:
+
 To create a production build:
+
 npm run build
 
 To preview the build:
+
 npm run preview
 
    
