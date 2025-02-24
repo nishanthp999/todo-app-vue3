@@ -1,35 +1,49 @@
-# todo-app-vue3
+Vue 3 Todo App
 
-This template should help get you started developing with Vue 3 in Vite.
+📌 Overview
 
-## Recommended IDE Setup
+This is a Vue 3 Todo App built using Pinia for state management and Vue Router for navigation. It includes sorting functionality, Bootstrap styling, and a user-friendly interface for managing tasks efficiently.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Customize configuration
+🚀 Features
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+📝 Add Todos – Users can add new tasks.
 
-## Project Setup
+✅ Mark as Completed – Toggle tasks as completed or pending.
 
-```sh
-npm install
-```
+🔄 Sort Todos – Sort tasks by latest created date or alphabetically.
 
-### Compile and Hot-Reload for Development
+🗑 Delete Todos – Remove tasks when no longer needed.
 
-```sh
-npm run dev
-```
+📌 Persistent State – State is managed with Pinia.
 
-### Compile and Minify for Production
+🎨 Bootstrap UI – Styled with Bootstrap for a clean interface.
 
-```sh
+🛠 Vue Router – Navigation between Home and Todos page.
+
+Technology Stack:
+
+Vue 3 – JavaScript framework
+Pinia – State management
+Vue Router – Navigation
+Bootstrap – Styling and UI components
+
+🚀 Installation & Setup
+
+  Clone the repository:
+   https://github.com/nishanthp999/todo-app-vue3/
+
+   Install dependencies:
+   npm install
+
+   Run the development server:
+   npm run dev
+   
+Build & Deployment:
+To create a production build:
 npm run build
-```
 
-### Lint with [ESLint](https://eslint.org/)
+To preview the build:
+npm run preview
 
-```sh
-npm run lint
-```
+   
